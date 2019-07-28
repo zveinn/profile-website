@@ -1,10 +1,11 @@
 <div class="media-wrapper">
     <div class="left-border"></div>
     <div class="media-icons-wrapper">
-        {{ $instagramUrl :=  .Site.Params.instagramUrl}}
-        {{ $githubUrl :=  .Site.Params.githubUrl}}
-        {{ $youtubeUrl :=  .Site.Params.youtubeUrl}}
-        {{ $twitterUrl :=  .Site.Params.twitterUrl}}
+        {{ $instagramUrl := .Site.Params.instagramUrl}}
+        {{ $githubUrl := .Site.Params.githubUrl}}
+        {{ $youtubeUrl := .Site.Params.youtubeUrl}}
+        {{ $twitterUrl := .Site.Params.twitterUrl}}
+
         {{ with .Site.Params.instagramLogo }}
         <a class="media-logo" title="Instagram" href="{{ $instagramUrl }}">
             <img src="{{ . }}" alt="Instagram" />
