@@ -1,0 +1,29 @@
+<div class="media-wrapper">
+    <div class="left-border"></div>
+    <div class="media-icons-wrapper">
+        {{ $instagramUrl :=  .Site.Params.instagramUrl}}
+        {{ $githubUrl :=  .Site.Params.githubUrl}}
+        {{ $youtubeUrl :=  .Site.Params.youtubeUrl}}
+        {{ $twitterUrl :=  .Site.Params.twitterUrl}}
+        {{ with .Site.Params.instagramLogo }}
+        <a class="media-logo" title="Instagram" href="{{ $instagramUrl }}">
+            <img src="{{ . }}" alt="Instagram" />
+        </a>
+        {{end}}
+        {{ with .Site.Params.githubLogo }}
+        <a class="media-logo" title="Github" href="{{ $githubUrl }}">
+            <img src="{{ . }}" alt="Github" />
+        </a>
+        {{end}}
+        {{ with .Site.Params.youtubeLogo }}
+        <a class="media-logo" title="Youtube" href="{{ $youtubeUrl }}">
+            <img src="{{ . }}" alt="Youtube" />
+        </a>
+        {{end}}
+        {{ with .Site.Params.twitterLogo }}
+        <a class="media-logo" title="Twitter" href="{{ $twitterUrl }}">
+            <img src="{{ . }}" alt="Twitter" />
+        </a>
+        {{end}}
+    </div>
+</div>

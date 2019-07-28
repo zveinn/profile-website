@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+
+<div class="home-wrapper">
+    {{ partial "media-nav.html" .Site }}
+
+    <div class="zenbot-wrapper">
+        {{ with .Site.Params.zenbot }}
+        <img src="{{ . }}" alt="zkynet.io" />
+        {{ end }}
+        <ol class="post-list">
+            {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
+            {{ range $pag.Pages }}
+            {{ partial "post-stub.html" . }}
+            {{ end }}
+        </ol>
+
+        <div class="post-navigation">
+            {{ partial "pagination.html" . }}
+        </div>
+    </div>
+</div>
+
+
+
+{{ partial "footer.html" . }}
