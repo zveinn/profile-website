@@ -1,10 +1,11 @@
 .site-header {
-    padding: 40px;
+    padding: 20px 40px;
 }
 
 .header-wrapper {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .site-logo img {
@@ -25,6 +26,7 @@
 .content {
     display: flex;
     justify-content: center;
+    height: calc(100% - 150px);
 }
 
 .home-wrapper {
@@ -45,7 +47,7 @@
 }
 
 .zenbot-wrapper img {
-    height: 500px;
+    height: 600px;
     width: auto;
 }
 
@@ -59,14 +61,17 @@
 }
 
 .left-border {
-    background-color: #222;
+    background-image: url('../../img/black-background.png');
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 30px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .footer {
@@ -74,9 +79,20 @@
     margin: 0;
 }
 
-.media-logo img {
+.media-logo-image {
     height: 40px;
     width: auto;
     margin: 10px 0;
     margin-left: 10px;
+}
+
+.plug-icon {
+    height: 25px;
+    width: auto;
+    margin: 10px 0;
+}
+
+.media-logo {
+    display: flex;
+    align-items: center;
 }

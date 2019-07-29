@@ -5,25 +5,37 @@
         {{ $githubUrl := .Site.Params.githubUrl}}
         {{ $youtubeUrl := .Site.Params.youtubeUrl}}
         {{ $twitterUrl := .Site.Params.twitterUrl}}
+        {{ $blogUrl := .Site.Params.blogUrl}}
+        {{ $plugImg := .Site.Params.plugImg}}
 
         {{ with .Site.Params.instagramLogo }}
-        <a class="media-logo" title="Instagram" href="{{ $instagramUrl }}">
-            <img src="{{ . }}" alt="Instagram" />
+        <a class="media-logo" title="Instagram" onmouseup="onLeavePress()" onmousedown="onPress()" href="/">
+            <img class="plug-icon" src="{{ $plugImg }}" alt="plug" />
+            <img class="media-logo-image" src="{{ . }}" alt="Instagram" />
         </a>
         {{end}}
         {{ with .Site.Params.githubLogo }}
         <a class="media-logo" title="Github" href="{{ $githubUrl }}">
-            <img src="{{ . }}" alt="Github" />
+            <img class="plug-icon" src="{{ $plugImg }}" alt="plug" />
+            <img class="media-logo-image" src="{{ . }}" alt="Github" />
         </a>
         {{end}}
         {{ with .Site.Params.youtubeLogo }}
         <a class="media-logo" title="Youtube" href="{{ $youtubeUrl }}">
-            <img src="{{ . }}" alt="Youtube" />
+            <img class="plug-icon" src="{{ $plugImg }}" alt="plug" />
+            <img class="media-logo-image" src="{{ . }}" alt="Youtube" />
         </a>
         {{end}}
         {{ with .Site.Params.twitterLogo }}
         <a class="media-logo" title="Twitter" href="{{ $twitterUrl }}">
-            <img src="{{ . }}" alt="Twitter" />
+            <img class="plug-icon" src="{{ $plugImg }}" alt="plug" />
+            <img class="media-logo-image" src="{{ . }}" alt="Twitter" />
+        </a>
+        {{end}}
+        {{ with .Site.Params.blogLogo }}
+        <a class="media-logo" title="Blog" href="{{ $blogUrl }}">
+            <img class="plug-icon" src="{{ $plugImg }}" alt="plug" />
+            <img class="media-logo-image" src="{{ . }}" alt="Blog" />
         </a>
         {{end}}
     </div>

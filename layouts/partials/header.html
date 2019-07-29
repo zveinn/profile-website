@@ -28,6 +28,14 @@
         <ul class="site-nav">
             {{ partial "navigation.html" . }}
         </ul>
+
+        <div>
+            {{ with .Site.Params.contactImg }}
+            <a class="" data-hint="Email" title="Email" href="mailto:{{ . }}">
+                <img class="contact-logo" src="{{ . }}" alt="zkynet.io" />
+            </a>
+            {{ end }}
+        </div>
     </div>
 </header>
 
