@@ -1,0 +1,98 @@
+.site-header {
+    padding: 20px 40px;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.site-logo img {
+    height: 60px;
+    width: auto;
+}
+
+.site-nav {
+    flex: 1;
+    margin-left: -50px;
+}
+
+.contact-logo {
+    height: 30px;
+    width: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    height: calc(100% - 150px);
+}
+
+.home-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.zenbot-wrapper {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.zenbot-wrapper img {
+    height: 600px;
+    width: auto;
+}
+
+.media-wrapper {
+    position: absolute;
+    display: flex;
+}
+
+.media-icons-wrapper {
+    padding: 20px 0;
+}
+
+.left-border {
+    background-image: url('../../img/black-background.png');
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer {
+    background-color: #fff;
+    margin: 0;
+}
+
+.media-logo-image {
+    height: 40px;
+    width: auto;
+    margin: 10px 0;
+    margin-left: 10px;
+}
+
+.plug-icon {
+    height: 25px;
+    width: auto;
+    margin: 10px 0;
+}
+
+.media-logo {
+    display: flex;
+    align-items: center;
+}

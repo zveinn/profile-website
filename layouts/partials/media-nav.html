@@ -1,41 +1,36 @@
 <div class="media-wrapper">
     <div class="left-border"></div>
     <div class="media-icons-wrapper">
-        {{ $instagramUrl := .Site.Params.instagramUrl}}
-        {{ $githubUrl := .Site.Params.githubUrl}}
         {{ $youtubeUrl := .Site.Params.youtubeUrl}}
         {{ $twitterUrl := .Site.Params.twitterUrl}}
         {{ $blogUrl := .Site.Params.blogUrl}}
-        {{ $plugImg := .Site.Params.plugImg}}
+        {{ $contactEmail := .Site.Params.contactEmail}}
+        {{ $blogLogoActive := .Site.Params.blogLogoActive}}
+        {{ $blogLogoInactive := .Site.Params.blogLogoInactive}}
+        {{ $currentPage := . }}
 
-        {{ with .Site.Params.instagramLogo }}
-        <a class="media-logo" title="Instagram" onmouseup="onLeavePress()" onmousedown="onPress()" href="/">
-            <img class="plug-icon" src="{{ $plugImg }}" alt="plug" />
-            <img class="media-logo-image" src="{{ . }}" alt="Instagram" />
+        {{ range .Site.Menus.main.ByWeight }}
+        <a class="media-logo" title="Blog" href="/blog">
+            {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+            <img class="media-logo-image" src="{{ .Pre }}" alt="Blog" />
+            {{else}}
+            <img class="media-logo-image" src="{{ .Post }}" alt="Blog" />
+            {{end}}
         </a>
-        {{end}}
-        {{ with .Site.Params.githubLogo }}
-        <a class="media-logo" title="Github" href="{{ $githubUrl }}">
-            <img class="plug-icon" src="{{ $plugImg }}" alt="plug" />
-            <img class="media-logo-image" src="{{ . }}" alt="Github" />
-        </a>
-        {{end}}
+        {{ end }}
         {{ with .Site.Params.youtubeLogo }}
         <a class="media-logo" title="Youtube" href="{{ $youtubeUrl }}">
-            <img class="plug-icon" src="{{ $plugImg }}" alt="plug" />
             <img class="media-logo-image" src="{{ . }}" alt="Youtube" />
         </a>
         {{end}}
         {{ with .Site.Params.twitterLogo }}
         <a class="media-logo" title="Twitter" href="{{ $twitterUrl }}">
-            <img class="plug-icon" src="{{ $plugImg }}" alt="plug" />
             <img class="media-logo-image" src="{{ . }}" alt="Twitter" />
         </a>
         {{end}}
-        {{ with .Site.Params.blogLogo }}
-        <a class="media-logo" title="Blog" href="{{ $blogUrl }}">
-            <img class="plug-icon" src="{{ $plugImg }}" alt="plug" />
-            <img class="media-logo-image" src="{{ . }}" alt="Blog" />
+        {{ with .Site.Params.contactLogo }}
+        <a class="media-logo" title="Contact" href="mailto:{{ $contactEmail }}">
+            <img class="media-logo-image" src="{{ . }}" alt="contact" />
         </a>
         {{end}}
     </div>
