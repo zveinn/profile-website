@@ -1,11 +1,7 @@
 {{ partial "header.html" . }}
-
-<div class="home-wrapper">
     <div class="zenbot-wrapper">
         {{ with .Site.Params.zenbot }}
-        <img src="{{ . }}" alt="zkynet.io" />
+        <img src="{{ . }}" alt="zkynet.io"/>
         {{ end }}
     </div>
-</div>
-
 {{ partial "footer.html" . }}
