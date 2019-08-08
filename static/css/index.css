@@ -88,6 +88,10 @@
     align-items: center;
 }
 
+.post-list {
+    width: 50%;
+}
+
 
 /* iPhone 4 and 4S  (portrait) ----------- */
 @media (max-width: 768px) and (orientation: portrait) {
