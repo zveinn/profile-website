@@ -12,6 +12,8 @@
         <a class="media-logo" title="Blog" href="/blog">
             {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
             <img class="media-logo-image" src="{{ .Pre }}" alt="Blog" />
+            {{else if eq $.Kind "page"}}
+            <img class="media-logo-image" src="{{ .Pre }}" alt="Blog" />
             {{else}}
             <img class="media-logo-image" src="{{ .Post }}" alt="Blog" />
             {{end}}

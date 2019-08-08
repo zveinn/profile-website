@@ -3,6 +3,8 @@
     top: 0;
     left: 0;
     right: 0;
+    position: fixed;
+    z-index: 10;
 }
 
 .header-wrapper {
@@ -29,6 +31,7 @@
 .content {
     display: flex;
     justify-content: center;
+    margin-top: 150px;
 }
 
 .home-wrapper {
