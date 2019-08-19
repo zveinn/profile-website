@@ -199,7 +199,7 @@ table tr { border-bottom: 1px dotted #aeadad; }
  .author-profile:after, .author-profile:before { margin-top: 20px; }
  .post-stub-title { display: block; }
  .post-stub-date:before { content: ""; display: block; }
- .post-list { margin-top: 20px; width:90% !important;}
+ .post-list { margin-top: 20px; }
  .post-container, .post-list, .author-profile { margin-right: 25px; margin-left: 25px; }
  .post-tags { width: 100%; }
  .post-stub a, .post-stub a:hover { padding-top: 12px; padding-bottom: 12px; }
@@ -221,5 +221,4 @@ table tr { border-bottom: 1px dotted #aeadad; }
  .author-avatar { display: block; margin: 0 auto 18px; }
  .author-meta span { display: block; margin: 18px 0; }
  .footer-copyright { padding: 0 10px; }
- .post-list{width:90% !important;}
 }
