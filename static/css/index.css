@@ -44,7 +44,7 @@
 }
 
 .zenbot-wrapper {
-    justify-content: center;
+    /* justify-content: center; */
     display: flex;
     width: 100%;
     align-items: center;
@@ -128,6 +128,9 @@
     .zenbot-wrapper {
         height: calc(100% - 150px);
     }
+    .post-list{
+        width:90%;
+    }
 }
 
 /* ----------- Iphone X Landscape ----------- */
@@ -144,6 +147,9 @@
 
     .zenbot-wrapper {
         height: calc(100% - 150px);
+    }
+    .post-list {
+        width:90%;
     }
 }
 
