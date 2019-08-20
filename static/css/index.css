@@ -1,4 +1,44 @@
+
+.fa-icon-header{
+    position: relative;
+    left:-25px;
+    top:3px;
+    color:white;
+}
+.blog-icon {
+    font-weight: bold;
+    font-style: normal !important;
+    font-size: 1.2em;
+    left:-28px;
+    top:1px;
+}
+.facebook-icon{
+    font-weight: bold !important;
+    left:-26px;
+}
+.youtube-icon{
+
+     /* font-weight: bold !important; */
+    font-size: 1.2em !important;
+    left: -30px;
+    top: 1px; 
+}
+.twitter-icon{
+
+     font-weight: bold !important;
+    font-size: 1.2em !important;
+    left: -30px;
+    top: 2px; 
+}
+.at-icon{
+    font-weight: bold !important;
+    left:-29px;
+        font-size: 1.2em !important;
+    top: 2px; 
+}
+
 .site-header {
+
     padding: 40px 40px;
     top: 0;
     left: 0;
@@ -64,6 +104,7 @@
 .media-icons-wrapper {
     display: flex;
     flex-direction: row;
+    margin-bottom:22px;
 }
 
 .footer {
@@ -74,7 +115,7 @@
 .media-logo-image {
     height: 40px;
     width: auto;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 5px;
 }
 
 .plug-icon {
@@ -86,6 +127,7 @@
 .media-logo {
     display: flex;
     align-items: center;
+    width:40px;
 }
 
 .post-list {
