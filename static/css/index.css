@@ -108,6 +108,10 @@
     .zenbot-wrapper {
         height: calc(100% - 150px);
     }
+    .post-list {
+    width: 90%;
+}
+
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
@@ -131,6 +135,10 @@
     .post-list{
         width:90%;
     }
+    .post-list {
+    width: 90%;
+}
+
 }
 
 /* ----------- Iphone X Landscape ----------- */
@@ -164,6 +172,9 @@
         width: 20%;
         height: 30%;
     }
+       .post-list {
+        width:90%;
+    }
 }
 
 /* ----------- Google Pixel 2XL (landscape) ----------- */
@@ -186,5 +197,8 @@
 
     .zenbot-wrapper {
         height: calc(100% - 150px);
+    }
+       .post-list {
+        width:90%;
     }
 }

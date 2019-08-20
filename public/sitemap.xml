@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>https://www.zkynet.io/stuff/about/</loc>
-    <lastmod>2015-04-03T02:13:50+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.zkynet.io/blog/</loc>
     <lastmod>2015-04-03T02:13:50+00:00</lastmod>
     <priority>0</priority>
@@ -24,9 +19,8 @@
   </url>
   
   <url>
-    <loc>https://www.zkynet.io/stuff/</loc>
+    <loc>https://www.zkynet.io/blog/newwebsite/</loc>
     <lastmod>2015-04-03T02:13:50+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
