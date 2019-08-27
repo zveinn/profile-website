@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Zkynet.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2015 02:13:50 +0000</lastBuildDate>
     
 	<atom:link href="https://www.zkynet.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>art</title>
+      <link>https://www.zkynet.io/categories/art/</link>
+      <pubDate>Fri, 03 Apr 2015 02:13:50 +0000</pubDate>
+      
+      <guid>https://www.zkynet.io/categories/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://www.zkynet.io/categories/software/</link>
+      <pubDate>Fri, 03 Apr 2015 02:13:50 +0000</pubDate>
+      
+      <guid>https://www.zkynet.io/categories/software/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Development</title>
@@ -26,6 +44,24 @@
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://www.zkynet.io/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>infrastructure</title>
+      <link>https://www.zkynet.io/categories/infrastructure/</link>
+      <pubDate>Mon, 03 Mar 2014 02:13:50 +0000</pubDate>
+      
+      <guid>https://www.zkynet.io/categories/infrastructure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>networking</title>
+      <link>https://www.zkynet.io/categories/networking/</link>
+      <pubDate>Mon, 03 Mar 2014 02:13:50 +0000</pubDate>
+      
+      <guid>https://www.zkynet.io/categories/networking/</guid>
       <description></description>
     </item>
     
