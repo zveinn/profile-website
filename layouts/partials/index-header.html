@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ .Title }}</title>
-    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="robots" content="index,follow">
@@ -14,17 +13,11 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}font/open-sans.css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/fa.css">
  
-          {{ if .Params.tags }}
-            {{ range  .Params.tags }}
-                  <meta name="ogtype" property="og:type:article:tag"          content="{{.}}" />
-        {{ end }}
-        {{end}}
 
      <meta name="ogurl" property="og:url"           content="{{ .Permalink  | absURL}}" />
-  <meta name="ogtype" property="og:type"          content="article" />
-   <meta name="ogtype" property="og:type:article:author"          content="{{.Params.Author}} / {{ .Params.Email}}" />
-  <meta name="twitter:title" property="og:title"         content="{{.Params.Title}}" />
-  <meta name="twitter:description" property="og:description"   content="{{.Params.Description | safeHTML }}" />
+  <meta name="ogtype" property="og:type"          content="website" />
+  <meta name="twitter:title" property="og:title"         content="Zkynet.IO" />
+  <meta name="twitter:description" property="og:description"   content="Tech shizzles" />
   <meta name="twitter:image" property="og:image"         content="{{.Site.Params.sharingLogoLink}}" />
 <meta name="twitter:card" content="summary_large_image">
 </head>
