@@ -19,7 +19,9 @@ theme = "ghostwriter"
     dateFormat = "Mon, Jan 2, 2006"
     zkynetLogo = "../../img/zkynet-logo.png"
     zenbot = "../../img/zenbot.png"
+    sharingLogoLink = "https://zkynet.io/img/zkynet-logo.png"
 
+    
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
 

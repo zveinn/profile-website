@@ -6,20 +6,20 @@
     <description>Recent content in networking on Zkynet.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Mar 2014 02:13:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2019 10:19:53 +0300</lastBuildDate>
     
 	<atom:link href="https://www.zkynet.io/categories/networking/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>What is Zkynet.IO?</title>
+      <title>Zkynet.IO ?</title>
       <link>https://www.zkynet.io/blog/whatiszkynet/</link>
-      <pubDate>Mon, 03 Mar 2014 02:13:50 +0000</pubDate>
+      <pubDate>Wed, 28 Aug 2019 10:19:53 +0300</pubDate>
       
       <guid>https://www.zkynet.io/blog/whatiszkynet/</guid>
-      <description>We are a small company that specializes in high skill level projects. The goal is to remain a relatively small company, doing so we can have greater oversight of any work we do and ensure the quality of our service.
-Things we do Here is a short list that includes some of the things we are involved in:
- Software Engineering using Golang Infrastructure design System Administration Machine Learning using Tensorflow Networking</description>
+      <description>Zkynet is about all things computers and maybe, if we feel like it, we&amp;rsquo;ll write some stuff about it. If you need some help with your computer things, send us a message. Additionally, you can browse some of the tags below.
+
+Love, Z.</description>
     </item>
     
   </channel>

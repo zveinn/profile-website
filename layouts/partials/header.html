@@ -13,7 +13,20 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    
+ 
+          {{ if .Params.tags }}
+            {{ range  .Params.tags }}
+                  <meta name="ogtype" property="og:type:article:tag"          content="{{.}}" />
+        {{ end }}
+        {{end}}
+
+     <meta name="ogurl" property="og:url"           content="{{ .Permalink  | absURL}}" />
+  <meta name="ogtype" property="og:type"          content="article" />
+   <meta name="ogtype" property="og:type:article:author"          content="{{.Params.Author}} / {{ .Params.Email}}" />
+  <meta name="twitter:title" property="og:title"         content="{{.Params.Title}}" />
+  <meta name="twitter:description" property="og:description"   content="{{.Params.Description | safeHTML }}" />
+  <meta name="twitter:image" property="og:image"         content="{{.Site.Params.sharingLogoLink}}" />
+<meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
    <!-- Load Facebook SDK for JavaScript -->

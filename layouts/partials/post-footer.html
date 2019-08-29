@@ -1,26 +1,26 @@
 <footer class="post-footer clearfix">
         {{ if .Params.tags }}
             <p class="post-tags">
-            <span>Tagged:</span>
+            <span>Tags / </span>
             {{ $len := len .Params.tags }}
             {{ range $index, $tag := .Params.tags }}
                 <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
-                {{- if lt $index (sub $len 1) -}}, {{ end }}
+                {{- if lt $index (sub $len 1) -}}/{{ end }}
         {{ end }}
         
         {{end}}
         <br>
         {{ if .Params.categories }}
-            <span>Categories:</span>
+            <span>Categories / </span>
             {{ $len := len .Params.categories }}
             {{ range $index, $cat := .Params.categories }}
                 <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
-                {{- if lt $index (sub $len 1) -}}, {{ end }}
+                {{- if lt $index (sub $len 1) -}} / {{ end }}
             {{ end }}
             </p>
         {{end}}
-
     <div class="share">
+        share
         {{ if or (not (isset .Site.Params "sharetwitter")) .Site.Params.shareTwitter }}
             <a class="icon-twitter" href="https://twitter.com/share?text={{ .Title }}&url={{ .Permalink }}"
                 onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
