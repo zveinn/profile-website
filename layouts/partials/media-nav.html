@@ -25,25 +25,25 @@
         </a>
         {{ end }}
            {{ with .Site.Params.facebooklogo }}
-        <a class="media-logo" title="Youtube" href="{{ $facebookUrl }}">
+        <a class="media-logo" title="Youtube" target="_blank" href="{{ $facebookUrl }}">
             <img class="media-logo-image" src="{{ . }}" alt="Facebook" />
             <i class="fa fa-icon-header facebook-icon fa-facebook"></i>
         </a>
         {{end}}
         {{ with .Site.Params.youtubeLogo }}
-        <a class="media-logo" title="Youtube" href="{{ $youtubeUrl }}">
+        <a class="media-logo" title="Youtube" target="_blank"  href="{{ $youtubeUrl }}">
             <img class="media-logo-image" src="{{ . }}" alt="Youtube" />
             <i class="fa fa-icon-header youtube-icon fa-youtube-play"></i>
         </a>
         {{end}}
         {{ with .Site.Params.twitterLogo }}
-        <a class="media-logo" title="Twitter" href="{{ $twitterUrl }}">
+        <a class="media-logo" title="Twitter" target="_blank"  href="{{ $twitterUrl }}">
             <img class="media-logo-image" src="{{ . }}" alt="Twitter" />
              <i class="fa fa-icon-header twitter-icon fa-twitter"></i>
         </a>
         {{end}}
         {{ with .Site.Params.contactLogo }}
-        <a class="media-logo" title="Contact" href="mailto:{{ $contactEmail }}">
+        <a class="media-logo" title="Contact" target="_blank"  href="mailto:{{ $contactEmail }}">
             <img class="media-logo-image" src="{{ . }}" alt="contact" />
              <i class="fa fa-icon-header at-icon fa-at"></i>
         </a>
