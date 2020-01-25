@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>infrastructure on Zkynet.io</title>
-    <link>https://www.zkynet.io/categories/infrastructure/</link>
+    <link>https://zkynet.io/categories/infrastructure/</link>
     <description>Recent content in infrastructure on Zkynet.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Aug 2019 10:19:53 +0300</lastBuildDate>
     
-	<atom:link href="https://www.zkynet.io/categories/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zkynet.io/categories/infrastructure/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Zkynet.IO ?</title>
-      <link>https://www.zkynet.io/blog/whatiszkynet/</link>
+      <link>https://zkynet.io/blog/whatiszkynet/</link>
       <pubDate>Wed, 28 Aug 2019 10:19:53 +0300</pubDate>
       
-      <guid>https://www.zkynet.io/blog/whatiszkynet/</guid>
+      <guid>https://zkynet.io/blog/whatiszkynet/</guid>
       <description>Zkynet is about all things computers and maybe, if we feel like it, we&amp;rsquo;ll write some stuff about it. If you need some help with your computer things, send us a message. Additionally, you can browse some of the tags below.
 
 Love, Z.</description>

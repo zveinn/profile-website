@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Zkynet.io</title>
-    <link>https://www.zkynet.io/tags/</link>
+    <link>https://zkynet.io/tags/</link>
     <description>Recent content in Tags on Zkynet.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Aug 2019 10:16:51 +0300</lastBuildDate>
     
-	<atom:link href="https://www.zkynet.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zkynet.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>golang</title>
-      <link>https://www.zkynet.io/tags/golang/</link>
+      <link>https://zkynet.io/tags/golang/</link>
       <pubDate>Thu, 29 Aug 2019 10:16:51 +0300</pubDate>
       
-      <guid>https://www.zkynet.io/tags/golang/</guid>
+      <guid>https://zkynet.io/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://www.zkynet.io/tags/hugo/</link>
+      <link>https://zkynet.io/tags/hugo/</link>
       <pubDate>Thu, 29 Aug 2019 10:16:51 +0300</pubDate>
       
-      <guid>https://www.zkynet.io/tags/hugo/</guid>
+      <guid>https://zkynet.io/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>https://www.zkynet.io/tags/css/</link>
+      <link>https://zkynet.io/tags/css/</link>
       <pubDate>Wed, 28 Aug 2019 10:19:53 +0300</pubDate>
       
-      <guid>https://www.zkynet.io/tags/css/</guid>
+      <guid>https://zkynet.io/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>https://www.zkynet.io/tags/docker/</link>
+      <link>https://zkynet.io/tags/docker/</link>
       <pubDate>Wed, 28 Aug 2019 10:19:53 +0300</pubDate>
       
-      <guid>https://www.zkynet.io/tags/docker/</guid>
+      <guid>https://zkynet.io/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>html</title>
-      <link>https://www.zkynet.io/tags/html/</link>
+      <link>https://zkynet.io/tags/html/</link>
       <pubDate>Wed, 28 Aug 2019 10:19:53 +0300</pubDate>
       
-      <guid>https://www.zkynet.io/tags/html/</guid>
+      <guid>https://zkynet.io/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>javascript</title>
-      <link>https://www.zkynet.io/tags/javascript/</link>
+      <link>https://zkynet.io/tags/javascript/</link>
       <pubDate>Wed, 28 Aug 2019 10:19:53 +0300</pubDate>
       
-      <guid>https://www.zkynet.io/tags/javascript/</guid>
+      <guid>https://zkynet.io/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://www.zkynet.io/tags/linux/</link>
+      <link>https://zkynet.io/tags/linux/</link>
       <pubDate>Wed, 28 Aug 2019 10:19:53 +0300</pubDate>
       
-      <guid>https://www.zkynet.io/tags/linux/</guid>
+      <guid>https://zkynet.io/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vscode</title>
-      <link>https://www.zkynet.io/tags/vscode/</link>
+      <link>https://zkynet.io/tags/vscode/</link>
       <pubDate>Wed, 28 Aug 2019 10:19:53 +0300</pubDate>
       
-      <guid>https://www.zkynet.io/tags/vscode/</guid>
+      <guid>https://zkynet.io/tags/vscode/</guid>
       <description></description>
     </item>
     

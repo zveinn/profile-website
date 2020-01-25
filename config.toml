@@ -1,4 +1,4 @@
-baseURL = "https://www.zkynet.io/"
+baseURL = "https://zkynet.io/"
 languageCode = "en-us"
 title = "Zkynet.io"
 theme = "ghostwriter"
