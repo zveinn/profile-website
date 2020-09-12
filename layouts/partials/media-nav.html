@@ -3,11 +3,32 @@
         {{ $youtubeUrl := .Site.Params.youtubeUrl}}
         {{ $facebookUrl := .Site.Params.facebookUrl}}
         {{ $twitterUrl := .Site.Params.twitterUrl}}
+        {{ $twitchUrl := .Site.Params.twitchUrl}}
         {{ $blogUrl := .Site.Params.blogUrl}}
         {{ $contactEmail := .Site.Params.contactEmail}}
         {{ $blogLogoActive := .Site.Params.blogLogoActive}}
         {{ $blogLogoInactive := .Site.Params.blogLogoInactive}}
         {{ $currentPage := . }}
+
+
+        {{ with .Site.Params.twitchUrl }}
+        <a class="media-logo" title="Twitch" target="_blank" href="{{ $twitchUrl }}">
+            <!-- <img class="media-logo-image" src="{{ . }}" alt="Facebook" />
+            <i class="fa fa-icon-header facebook-icon fa-facebook"></i> -->
+            Twitch.TV
+        </a>
+        {{end}}
+
+        {{ with .Site.Params.youtubeLogo }}
+        <a class="media-logo" title="Youtube" target="_blank" href="{{ $youtubeUrl }}">
+            <!-- <img class="media-logo-image" src="{{ . }}" alt="Youtube" />
+            <i class="fa fa-icon-header youtube-icon fa-youtube-play"></i> -->
+            Youtube
+        </a>
+        {{end}}
+
+
+
 
         {{ range .Site.Menus.main.ByWeight }}
         <a class="media-logo" title="Blog" href="/blog">
@@ -26,6 +47,9 @@
             {{end}} -->
         </a>
         {{ end }}
+
+
+
         {{ with .Site.Params.facebooklogo }}
         <a class="media-logo" title="Youtube" target="_blank" href="{{ $facebookUrl }}">
             <!-- <img class="media-logo-image" src="{{ . }}" alt="Facebook" />
@@ -33,13 +57,7 @@
             Facebook
         </a>
         {{end}}
-        {{ with .Site.Params.youtubeLogo }}
-        <a class="media-logo" title="Youtube" target="_blank" href="{{ $youtubeUrl }}">
-            <!-- <img class="media-logo-image" src="{{ . }}" alt="Youtube" />
-            <i class="fa fa-icon-header youtube-icon fa-youtube-play"></i> -->
-            Youtube
-        </a>
-        {{end}}
+
         {{ with .Site.Params.twitterLogo }}
         <a class="media-logo" title="Twitter" target="_blank" href="{{ $twitterUrl }}">
             <!-- <img class="media-logo-image" src="{{ . }}" alt="Twitter" />
