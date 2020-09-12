@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Z</title>
-    <link>https://zkynet.io/</link>
+    <link>https://zveinn.dev/</link>
     <description>Recent content on Z</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://zkynet.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zveinn.dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What is this website for ?</title>
-      <link>https://zkynet.io/blog/moretocome/</link>
+      <link>https://zveinn.dev/blog/moretocome/</link>
       <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zkynet.io/blog/moretocome/</guid>
+      <guid>https://zveinn.dev/blog/moretocome/</guid>
       <description>This website is for whatever, whenever, when we feel like it.
 
 Love, Z.</description>
@@ -24,10 +24,10 @@ Love, Z.</description>
     
     <item>
       <title>This is a website</title>
-      <link>https://zkynet.io/blog/newwebsite/</link>
+      <link>https://zveinn.dev/blog/newwebsite/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zkynet.io/blog/newwebsite/</guid>
+      <guid>https://zveinn.dev/blog/newwebsite/</guid>
       <description>This website is an engineering wonder that has been in the making for YEARS. It is the best website, it has the best divs. I would also like to add that this website has is not in collusion with anyone.
 
 Love, Z.</description>
