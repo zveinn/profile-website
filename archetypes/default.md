@@ -3,7 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 published: {{ .Published }}
 date: {{ .Date }}
 draft: true
-email: "anon@zkynet.io"
-author: "zkynet"
+email: "zveinn@zkynet.io"
+author: "zveinn"
 ---
 
