@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>networking on Zkynet.io</title>
+    <title>networking on Z</title>
     <link>https://zkynet.io/categories/networking/</link>
-    <description>Recent content in networking on Zkynet.io</description>
+    <description>Recent content in networking on Z</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2019 10:19:53 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zkynet.io/categories/networking/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Zkynet.IO ?</title>
-      <link>https://zkynet.io/blog/whatiszkynet/</link>
-      <pubDate>Wed, 28 Aug 2019 10:19:53 +0300</pubDate>
+      <title>What is this website for ?</title>
+      <link>https://zkynet.io/blog/moretocome/</link>
+      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zkynet.io/blog/whatiszkynet/</guid>
-      <description>Zkynet is about all things computers and maybe, if we feel like it, we&amp;rsquo;ll write some stuff about it. If you need some help with your computer things, send us a message. Additionally, you can browse some of the tags below.
+      <guid>https://zkynet.io/blog/moretocome/</guid>
+      <description>This website is for whatever, whenever, when we feel like it.
+Below you can see some of the tags available.
 
 Love, Z.</description>
     </item>

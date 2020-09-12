@@ -1,10 +1,10 @@
 +++
-title = "A new website"
-author = "Sveinn"
+title = "New Website"
+author = "Zveinn"
 email = "sveinn@zkynet.io"
-published = "3. April 2019"
-description = "the new website if finally ready"
-date = 1567063011
+published = "1. April 2020"
+description = "the new website is ready"
+date = 1585699200
 tags = ["golang","hugo"]
 categories = ["software","design","websites"]
 +++
@@ -25,4 +25,5 @@ Thanks to these two masters, the website turned out beautifully.
 Lastly I would like to give thanks to <a href="https://gohugo.io">Go Hugo</a> and the creators of the <a href="https://themes.gohugo.io/ghostwriter/">Ghostwriter theme</a>. Without them, this website would have been a lot more work. 
 
 <br>
-Love, Z.
+<b>Love, Z.</b>
+ 

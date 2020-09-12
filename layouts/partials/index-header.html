@@ -1,80 +1,79 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-99593122-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-99593122-3');
-</script>
+    gtag('config', 'UA-99593122-3');
+  </script>
 
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ .Title }}</title>
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="robots" content="index,follow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/index.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ .Title }}</title>
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/index.css">
 
-      
-     <meta name="og:url" property="og:url"           content="{{ .Permalink  | absURL}}" />
-  <meta name="og:type" property="og:type"          content="website" />
-  <meta name="og:title" property="og:title"         content="Zkynet" />
-  <meta name="og:description" property="og:description"   content="Tech consultancy" />
-  <meta name="og:image" property="og:image"         content="{{.Site.Params.sharingLogoLink}}" />
 
-    <meta name="twitter:title" property="twitter:title"         content="Zkynet" />
-  <meta name="twitter:description" property="twitter:description"   content="Tech consultancy" />
-  <meta name="twitter:image" property="twitter:image"         content="{{.Site.Params.sharingLogoLink}}" />
-<meta name="twitter:card" content="summary_large_image">
+  <meta name="og:url" property="og:url" content="{{ .Permalink  | absURL}}" />
+  <meta name="og:type" property="og:type" content="website" />
+  <meta name="og:title" property="og:title" content="Zkynet" />
+  <meta name="og:description" property="og:description" content="Tech consultancy" />
+  <meta name="og:image" property="og:image" content="{{.Site.Params.sharingLogoLink}}" />
+
+  <meta name="twitter:title" property="twitter:title" content="Zkynet" />
+  <meta name="twitter:description" property="twitter:description" content="Tech consultancy" />
+  <meta name="twitter:image" property="twitter:image" content="{{.Site.Params.sharingLogoLink}}" />
+  <meta name="twitter:card" content="summary_large_image">
 
 
 </head>
+
 <body>
-   <!-- Load Facebook SDK for JavaScript -->
-      <div id="fb-root"></div>
-      <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v4.0'
-          });
-        };
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v4.0'
+      });
+    };
 
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
 
-      <!-- Your customer chat code -->
-      <div class="fb-customerchat"
-        attribution=setup_tool
-        page_id="181859115795936"
-  theme_color="#fa3c4c"
-  logged_in_greeting="Did you know that butterflies taste with their feet ?"
-  logged_out_greeting="Did you know that butterflies taste with their feet ?">
-      </div> 
-<header class="site-header">
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat" attribution=setup_tool page_id="181859115795936" theme_color="#fa3c4c"
+    logged_in_greeting="Did you know that butterflies taste with their feet ?"
+    logged_out_greeting="Did you know that butterflies taste with their feet ?">
+  </div>
+  <header class="site-header">
     <div class="header-wrapper">
-        <div>
-            {{ with .Site.Params.zkynetLogo }}
+      <div>
+        <!-- {{ with .Site.Params.zkynetLogo }}
             <a class="site-logo" title="Zkynet.io" href="/">
                 <img src="{{ . }}" alt="zkynet.io" />
             </a>
-            {{ end }}
-        </div>
-        {{ partial "media-nav.html" . }}
+            {{ end }} -->
+      </div>
+      {{ partial "media-nav.html" . }}
     </div>
-    
-</header>
 
-    <div class="content" id="container">
+  </header>
+
+  <div class="content" id="container">

@@ -3,127 +3,108 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zkynet.io/blog/newwebsite/</loc>
-    <lastmod>2019-08-29T10:16:51+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zkynet.io/blog/</loc>
-    <lastmod>2019-08-29T10:16:51+03:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zkynet.io/categories/</loc>
-    <lastmod>2019-08-29T10:16:51+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zkynet.io/tags/</loc>
-    <lastmod>2019-08-29T10:16:51+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zkynet.io/</loc>
-    <lastmod>2019-08-29T10:16:51+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zkynet.io/categories/design/</loc>
-    <lastmod>2019-08-29T10:16:51+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zkynet.io/tags/golang/</loc>
-    <lastmod>2019-08-29T10:16:51+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zkynet.io/tags/hugo/</loc>
-    <lastmod>2019-08-29T10:16:51+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zkynet.io/categories/software/</loc>
-    <lastmod>2019-08-29T10:16:51+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zkynet.io/categories/websites/</loc>
-    <lastmod>2019-08-29T10:16:51+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zkynet.io/blog/whatiszkynet/</loc>
-    <lastmod>2019-08-28T10:19:53+03:00</lastmod>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zkynet.io/tags/css/</loc>
-    <lastmod>2019-08-28T10:19:53+03:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zkynet.io/categories/design/</loc>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zkynet.io/tags/docker/</loc>
-    <lastmod>2019-08-28T10:19:53+03:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zkynet.io/categories/engineering/</loc>
-    <lastmod>2019-08-28T10:19:53+03:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zkynet.io/tags/golang/</loc>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zkynet.io/tags/html/</loc>
-    <lastmod>2019-08-28T10:19:53+03:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zkynet.io/tags/hugo/</loc>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zkynet.io/categories/infrastructure/</loc>
-    <lastmod>2019-08-28T10:19:53+03:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zkynet.io/categories/iot/</loc>
-    <lastmod>2019-08-28T10:19:53+03:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zkynet.io/tags/javascript/</loc>
-    <lastmod>2019-08-28T10:19:53+03:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zkynet.io/tags/linux/</loc>
-    <lastmod>2019-08-28T10:19:53+03:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zkynet.io/categories/networking/</loc>
-    <lastmod>2019-08-28T10:19:53+03:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zkynet.io/categories/software/</loc>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zkynet.io/tags/</loc>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zkynet.io/tags/vscode/</loc>
-    <lastmod>2019-08-28T10:19:53+03:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zkynet.io/categories/websites/</loc>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zkynet.io/blog/moretocome/</loc>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zkynet.io/</loc>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zkynet.io/blog/newwebsite/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

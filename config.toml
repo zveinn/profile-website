@@ -1,13 +1,13 @@
 baseURL = "https://zkynet.io/"
 languageCode = "en-us"
-title = "Zkynet.io"
+title = "Z"
 theme = "ghostwriter"
 
 [Params]
-    description = "Zkynet I/O"
+    description = "Zveinn aka Zhuffles"
     youtubeUrl = "https://www.youtube.com/channel/UCW6eiMiVqYroPX1qiosAbnQ"
-    facebookUrl = "https://www.facebook.com/zkynetio/"
-    twitterUrl = "https://twitter.com/zkynetio"
+    facebookUrl = "https://www.facebook.com/sveinnotterlarusson/"
+    twitterUrl = "https://twitter.com/zhuffles"
     blogUrl = "/blog"
     youtubeLogo = "../../icons/red-button.png"
     facebookLogo = "../../icons/red-button.png"
