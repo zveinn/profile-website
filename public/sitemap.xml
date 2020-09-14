@@ -4,36 +4,41 @@
   
   <url>
     <loc>https://zveinn.dev/blog/</loc>
-    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zveinn.dev/categories/</loc>
-    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zveinn.dev/blog/classes/</loc>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zveinn.dev/tags/introduction/</loc>
-    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zveinn.dev/categories/random/</loc>
-    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zveinn.dev/tags/</loc>
-    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zveinn.dev/blog/moretocome/</loc>
-    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zveinn.dev/</loc>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zveinn.dev/blog/moretocome/</loc>
     <lastmod>2020-04-03T00:00:00+00:00</lastmod>
   </url>
   

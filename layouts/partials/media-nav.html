@@ -4,6 +4,7 @@
         {{ $facebookUrl := .Site.Params.facebookUrl}}
         {{ $twitterUrl := .Site.Params.twitterUrl}}
         {{ $twitchUrl := .Site.Params.twitchUrl}}
+        {{ $classes := .Site.Params.classes}}
         {{ $blogUrl := .Site.Params.blogUrl}}
         {{ $contactEmail := .Site.Params.contactEmail}}
         {{ $blogLogoActive := .Site.Params.blogLogoActive}}
@@ -16,6 +17,14 @@
             <!-- <img class="media-logo-image" src="{{ . }}" alt="Facebook" />
             <i class="fa fa-icon-header facebook-icon fa-facebook"></i> -->
             Twitch.TV
+        </a>
+        {{end}}
+
+        {{ with .Site.Params.classes }}
+        <a class="media-logo" title="classes" target="_blank" href="{{ $classes }}">
+            <!-- <img class="media-logo-image" src="{{ . }}" alt="Facebook" />
+            <i class="fa fa-icon-header facebook-icon fa-facebook"></i> -->
+            Classes
         </a>
         {{end}}
 

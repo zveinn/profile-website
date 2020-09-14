@@ -6,10 +6,20 @@
     <description>Recent content on Z</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zveinn.dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Golang lessons</title>
+      <link>https://zveinn.dev/blog/classes/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zveinn.dev/blog/classes/</guid>
+      <description>Starting point The first lesson/meeting will be on Thursday 17th of September 2020!
+Stream/lesson Schedule  Monday: 19:00 GMT - Plan the week Tuesday: Q/A Whenever I am live Wednesday: Q/A Whenever I am live Thursday: Q/A Whenever I am live Friday: 19:00 GMT - Code reviews and Pull Requests Saturday: Q/A Whenever I am live Sunday: Deep dive into random golang things (more information later)  What are we doing.</description>
+    </item>
     
     <item>
       <title>What is this website for ?</title>
