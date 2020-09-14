@@ -2,7 +2,7 @@
 title = "Golang lessons"
 author = "Sveinn"
 email = "sveinn@zkynet.io"
-description = "Building a graph database interfaces"
+description = "Building a graph database interface"
 day = "14. September 2020"
 date = 1600041600
 tags = ["introduction"]
