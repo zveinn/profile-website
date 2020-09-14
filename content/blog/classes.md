@@ -10,7 +10,7 @@ categories = ["random"]
 +++
 
 # Starting point
-The first lesson/meeting will be on Thursday 21st of September 2020!
+The first lesson/meeting will be on Monday 21st of September 2020!
 
 # Stream/lesson Schedule
  - Monday: 19:00 GMT - Plan the week
