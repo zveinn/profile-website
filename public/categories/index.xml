@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Z</title>
-    <link>https://zveinn.dev/categories/</link>
+    <link>https://zhuffles.dev/categories/</link>
     <description>Recent content in Categories on Z</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 14 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://zveinn.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhuffles.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>random</title>
-      <link>https://zveinn.dev/categories/random/</link>
+      <link>https://zhuffles.dev/categories/random/</link>
       <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zveinn.dev/categories/random/</guid>
+      <guid>https://zhuffles.dev/categories/random/</guid>
       <description></description>
     </item>
     

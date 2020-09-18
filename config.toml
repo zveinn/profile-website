@@ -1,4 +1,4 @@
-baseURL = "https://zveinn.dev/"
+baseURL = "https://zhuffles.dev/"
 languageCode = "en-us"
 title = "Z"
 theme = "ghostwriter"
@@ -9,7 +9,7 @@ theme = "ghostwriter"
     facebookUrl = "https://www.facebook.com/sveinnottarlarusson/"
     twitterUrl = "https://twitter.com/zhuffles"
     twitchUrl = "https://twitch.tv/zhuffles"
-    classes = "https://zveinn.dev/blog/classes/"
+    classes = "https://zhuffles.dev/blog/classes/"
     blogUrl = "/blog"
     youtubeLogo = "../../icons/red-button.png"
     facebookLogo = "../../icons/red-button.png"
@@ -21,7 +21,7 @@ theme = "ghostwriter"
     dateFormat = "Mon, Jan 2, 2006"
     zkynetLogo = "../../img/z-logo.png"
     zenbot = "../../img/zenbot.png"
-    sharingLogoLink = "https://zveinn.dev/img/zkynet-logo.png"
+    sharingLogoLink = "https://zhuffles.dev/img/zkynet-logo.png"
 
     
 [Permalinks]
