@@ -25,9 +25,8 @@ The first lesson/meeting will be on Monday 21st of September 2020!
 # What are we doing..
 We are going to work together as a team to build a golang graph database interface. Everyone is welcome and this will be an ongoing open srouce project. The goal is to learn about graph databases together and build a tool we can all use in the future. 
 
-# Links
-[Discord](https://discord.com/invite/r4wxkXd)
-[Git Repositori](https://github.com/opensourcez/go4neo)
+# [Discord](https://discord.com/invite/r4wxkXd)
+# [Git Repository](https://github.com/opensourcez/go4neo)
 
 <br>
 <b>Love, Z.</b>
