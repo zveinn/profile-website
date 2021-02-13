@@ -1,5 +1,5 @@
 <div class="media-wrapper">
-    <div class="media-icons-wrapper">
+    <div class="media-icons-wrapper menu-fix">
         {{ $youtubeUrl := .Site.Params.youtubeUrl}}
         {{ $facebookUrl := .Site.Params.facebookUrl}}
         {{ $twitterUrl := .Site.Params.twitterUrl}}
@@ -58,14 +58,6 @@
         {{ end }}
 
 
-
-        {{ with .Site.Params.facebooklogo }}
-        <a class="media-logo" title="Youtube" target="_blank" href="{{ $facebookUrl }}">
-            <!-- <img class="media-logo-image" src="{{ . }}" alt="Facebook" />
-            <i class="fa fa-icon-header facebook-icon fa-facebook"></i> -->
-            Facebook
-        </a>
-        {{end}}
 
         {{ with .Site.Params.twitterLogo }}
         <a class="media-logo" title="Twitter" target="_blank" href="{{ $twitterUrl }}">

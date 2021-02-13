@@ -184,6 +184,9 @@ table tr { border-bottom: 1px dotted #aeadad; }
 #nprogress .spinner-icon { border-top-color: #f03838; border-left-color: #f03838; }
 @media only screen and (max-width: 800px) {
  .post-stub-tag { display: none; }
+ .content {
+     margin-top:300px !important;
+ }
 }
 @media only screen and (max-width: 600px) {
  h1, h2 { margin-bottom: 20px; }
@@ -341,7 +344,7 @@ table tr { border-bottom: 1px dotted #aeadad; }
 }
 
 .media-icons-wrapper {
-    display: flex;
+    display: block;
     flex-direction: row;
     margin-bottom:35px;
 }
@@ -364,10 +367,10 @@ table tr { border-bottom: 1px dotted #aeadad; }
 }
 
 .media-logo {
-    display: flex;
+    display: block;
     align-items: center;
     width:auto;
-    margin-left: 20px;
+    margin-bottom:10px;
 }
 
 .post-list {
