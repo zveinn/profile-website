@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/index.css">
 
   {{ if .Params.tags }}
-  {{ range  .Params.tags }}
+  {{ range .Params.tags }}
   <meta name="ogtype" property="og:type:article:tag" content="{{.}}" />
   {{ end }}
   {{end}}
