@@ -6,10 +6,22 @@
     <description>Recent content in Blogs on Z</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Feb 2021 14:20:17 +0000</lastBuildDate>
     
 	<atom:link href="https://zveinn.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What are you worth ?</title>
+      <link>https://zveinn.dev/blog/estimatingyourworth/</link>
+      <pubDate>Mon, 15 Feb 2021 14:20:17 +0000</pubDate>
+      
+      <guid>https://zveinn.dev/blog/estimatingyourworth/</guid>
+      <description>In today&amp;rsquo;s economy it has become increasingly difficult to estimate one&amp;rsquo;s worth. In This video I will explore how we can estimate our salary/worth using a few basic techniques.
+When looking for a new job, you want to (summary):
+Analyze your developer level (junior/mid/senior) Here is Tim Corey talking about how to analyze your skill level
+Analyze the market to calculate average salary for your position using the analysis of your developer level Analyzing the market can be tricky, here is a tool github uses to find average salaries in certain countries and here is a tool called payscale which can also be helpful.</description>
+    </item>
     
     <item>
       <title>This is a website</title>

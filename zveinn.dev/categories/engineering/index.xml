@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Z</title>
-    <link>https://zveinn.dev/</link>
-    <description>Recent content on Z</description>
+    <title>engineering on Z</title>
+    <link>https://zveinn.dev/categories/engineering/</link>
+    <description>Recent content in engineering on Z</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Feb 2021 14:20:17 +0000</lastBuildDate>
     
-	<atom:link href="https://zveinn.dev/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zveinn.dev/categories/engineering/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,17 +21,6 @@
 When looking for a new job, you want to (summary):
 Analyze your developer level (junior/mid/senior) Here is Tim Corey talking about how to analyze your skill level
 Analyze the market to calculate average salary for your position using the analysis of your developer level Analyzing the market can be tricky, here is a tool github uses to find average salaries in certain countries and here is a tool called payscale which can also be helpful.</description>
-    </item>
-    
-    <item>
-      <title>This is a website</title>
-      <link>https://zveinn.dev/blog/newwebsite/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zveinn.dev/blog/newwebsite/</guid>
-      <description>This website is an engineering wonder that has been in the making for YEARS. It is the best website, it has the best divs. I would also like to add that this website has is not in collusion with anyone.
-
-Love, Z.</description>
     </item>
     
   </channel>
