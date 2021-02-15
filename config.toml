@@ -21,7 +21,7 @@ theme = "ghostwriter"
     dateFormat = "Mon, Jan 2, 2006"
     zkynetLogo = "../../img/z-logo.png"
     zenbot = "../../img/zenbot.png"
-    sharingLogoLink = "https://zveinn.dev/img/zkynet-logo.png"
+    sharingLogoLink = "https://zveinn.dev/img/stupid.jpg"
 
     
 [Permalinks]
