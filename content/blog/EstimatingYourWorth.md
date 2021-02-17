@@ -9,7 +9,9 @@ tags = ["estimation"]
 categories = ["engineering"]
 +++
 
-In today's economy it has become increasingly difficult to estimate one's worth. In [This video](https://www.twitch.tv/videos/915012024) I will explore how we can estimate our salary/worth using a few basic techniques 
+In today's economy it has become increasingly difficult to estimate one's worth. 
+<br>In [This video](https://www.twitch.tv/videos/915012024) I will explore how we can estimate our salary/worth using a few basic techniques 
+
 
 <br>
 
