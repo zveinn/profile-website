@@ -31,9 +31,7 @@ Analyzing the market can be tricky, [here is a tool github uses](https://stackov
 <br>
 
 # 4. Go get that job
-If you happen to be a golang developer, here are some great resources for you:
- 1. https://www.golangprojects.com/
- 2. https://gophers.slack.com <- there is a "jobs wanted" and "jobs" channels you can use to fish for work
+  [Golang Projects](https://www.golangprojects.com/) is a great site to search for jobs and so is the [golang slack channel](https://gophers.slack.com)
 
 <br>
 <br>
